@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1459456623 source:d:\lwin\tr\hm8\src\algorithm_hm8.cpp
+	"../include/algorithm_HM8.h"
+
+1459456825 d:\lwin\tr\hm8\include\algorithm_hm8.h
+	<simplecpp>
+	<string>
+	<map>
+	<sstream>
+
+1459456847 source:d:\lwin\tr\hm8\main.cpp
+	<simplecpp>
+	<string>
+	<map>
+	<sstream>
+
