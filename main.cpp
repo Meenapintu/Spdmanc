@@ -149,21 +149,22 @@ int main(){
   }
 
 
-  // your tsp code here
-  //
+  /** algo code  **/
 
         Node *base = get_node(source);
         trable(base);
         opt_travel(&min_p,"green");
 
-
+/**
   // sample code to show the tsp.  This code just connects points in
   // the order they were given.
- /* for(int i=0; i<npoints-1; i++)
+  for(int i=0; i<npoints-1; i++)
     Line(points[i]->getOrigin().getX(), points[i]->getOrigin().getY(),
-	 points[i+1]->getOrigin().getX(), points[i+1]->getOrigin().getY()).imprint();*/
-	  cout<<"DONE\n";
-  getClick();
+	 points[i+1]->getOrigin().getX(), points[i+1]->getOrigin().getY()).imprint();
+**/
+
+    cout<<"DONE\n";
+    getClick();
 
 
 }
